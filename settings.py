@@ -2,7 +2,7 @@ search_keys = {
     "username"         :  "",
     "password"         :  "",
     "keywords"         :  ["Data Scientist", "Data Analyst"],
-    "locations"        :  ["San Francisco Bay Area", "Greater New York City Area"],
+    "locations"        :  ["Palm Beach Gardens", "West Palm Beach", "Miami-Fort Lauderdale Area", "Palm Beach County", "Florida", "United States"],
 
     # specify the search radius from 'location' in miles:
     #    '10', '25', '35', '50', '75', '100'
