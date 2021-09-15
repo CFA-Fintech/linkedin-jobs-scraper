@@ -16,7 +16,7 @@ Here is a quick demo of how one can use the LinkedIn client and scrape tools.
 
 From the command line:
 ```bash
-$ python main.py --username uname --password pword --keyword software --location "san francisco bay area" --sort_by date
+$ python main.py --username uname --password pword --keyword software --location "Palm Beach Gardens", "West Palm Beach", "Miami-Fort Lauderdale Area", "Palm Beach County", "Florida", "United States" --sort_by date
 ```
 
 Or alter settings and run main
