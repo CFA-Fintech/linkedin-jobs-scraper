@@ -37,7 +37,7 @@ liclient.login()
 time.sleep(3)
 
 liclient.keyword  = "software"
-liclient.location = "san francisco bay area"
+liclient.location = "Palm Beach Gardens", "West Palm Beach", "Miami-Fort Lauderdale Area", "Palm Beach County", "Florida", "United States"
 liclient.navigate_to_jobs_page()
 liclient.enter_search_keys()
 liclient.customize_search_results()
