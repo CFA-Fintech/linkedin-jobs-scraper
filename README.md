@@ -16,7 +16,7 @@ Here is a quick demo of how one can use the LinkedIn client and scrape tools.
 
 From the command line:
 ```bash
-$ python main.py --username uname --password pword --keyword software --location "Palm Beach Gardens", "West Palm Beach", "Miami-Fort Lauderdale Area", "Palm Beach County", "Florida", "United States" --sort_by date
+$ python main.py --username uname --password pword --keyword "Data Scientist", "Data Analyst" --location "Palm Beach Gardens", "West Palm Beach", "Miami-Fort Lauderdale Area", "Palm Beach County", "Florida", "United States" --sort_by date
 ```
 
 Or alter settings and run main
@@ -36,7 +36,7 @@ liclient.login()
 # wait for page load
 time.sleep(3)
 
-liclient.keyword  = "software"
+liclient.keyword  = "Data Scientist", "Data Analyst"
 liclient.location = "Palm Beach Gardens", "West Palm Beach", "Miami-Fort Lauderdale Area", "Palm Beach County", "Florida", "United States"
 liclient.navigate_to_jobs_page()
 liclient.enter_search_keys()
